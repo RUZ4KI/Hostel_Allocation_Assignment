@@ -1,0 +1,33 @@
+.qHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    background-color: white;
+    width: 100%;
+
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+.qHeader__left{
+    display: flex;
+}
+.qHeader_logo img{
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.qHeader__avatar{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.qHeader__avatar{
+    cursor: pointer;
+
+}
